@@ -1,0 +1,18 @@
+# config-tone.txt — YOUR writing samples (voice reference)
+#
+# Paste 300–800 words of prose YOU wrote (not AI drafts). Good sources:
+#   - A blog paragraph you are happy with
+#   - README or doc intro in your voice
+#   - Email or post you wrote before using this skill
+#
+# Do NOT paste AI-generated posts unless you heavily edited them and they sound like you.
+#
+# Locations (skill checks in this order):
+#   1. <project>/.cursor/config-tone.txt   (this repo only; overrides personal file)
+#   2. ~/.cursor/skills/write-technical-blog-post/config-tone.txt   (all projects)
+#
+# If this file is empty (only comments), the skill runs voice-interview.md (~5 min)
+# before the blog interview, then saves your answers here.
+#
+# --- Paste your samples below this line ---
+
