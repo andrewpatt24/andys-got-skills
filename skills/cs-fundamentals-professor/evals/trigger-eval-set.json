@@ -1,0 +1,82 @@
+[
+  {
+    "query": "cursor added redis for rate limiting on my fastapi backend and i have no idea why — can you explain what's going on",
+    "should_trigger": true
+  },
+  {
+    "query": "i feel like a copy paste dev. walk me through our jwt middleware in plain english but actually rigorous",
+    "should_trigger": true
+  },
+  {
+    "query": "black box: what is our vector store even doing in the rag pipeline? i just pasted chromadb setup from an agent",
+    "should_trigger": true
+  },
+  {
+    "query": "activate MIT CS skill — explain why we need oauth2 pkce in this next.js auth route",
+    "should_trigger": true
+  },
+  {
+    "query": "help me understand the fundamentals of how streaming tokens to the browser works in our chat ui",
+    "should_trigger": true
+  },
+  {
+    "query": "why did the agent add a message queue here instead of just calling the api directly? tradeoffs?",
+    "should_trigger": true
+  },
+  {
+    "query": "eli5 our prisma schema relationships — i don't get foreign keys vs what the orm is hiding",
+    "should_trigger": true
+  },
+  {
+    "query": "i'm building an llm app and don't understand the cs behind prompt caching in our anthropic client wrapper",
+    "should_trigger": true
+  },
+  {
+    "query": "explain this concept: what's the actual difference between our in-memory cache and hitting postgres for session data",
+    "should_trigger": true
+  },
+  {
+    "query": "go deeper on the big-O / systems reason our embedding lookup feels slow at 50k chunks",
+    "should_trigger": true
+  },
+  {
+    "query": "fix the redis connection timeout — middleware keeps crashing on deploy",
+    "should_trigger": false
+  },
+  {
+    "query": "refactor rate limiting to use an in-memory map instead of redis, keep same limits",
+    "should_trigger": false
+  },
+  {
+    "query": "write a technical blog post about learning computer science while vibe coding",
+    "should_trigger": false
+  },
+  {
+    "query": "add unit tests for the jwt decode function in auth.ts",
+    "should_trigger": false
+  },
+  {
+    "query": "should i use openai text-embedding-3-small or voyage-3 for my rag app? just pick one",
+    "should_trigger": false
+  },
+  {
+    "query": "debug why POST /api/chat returns 500 when i stream — here's the stack trace",
+    "should_trigger": false
+  },
+  {
+    "query": "create a new cursor skill that teaches mit-style cs fundamentals",
+    "should_trigger": false
+  },
+  {
+    "query": "summarize this architecture pdf and list action items for the team",
+    "should_trigger": false
+  },
+  {
+    "query": "compare next.js app router vs remix for our marketing site — we're not coding yet",
+    "should_trigger": false
+  },
+  {
+    "query": "how do i symlink a skill into ~/.cursor/skills from my github repo",
+    "should_trigger": false
+  }
+]

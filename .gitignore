@@ -1,4 +1,6 @@
 .DS_Store
+.tools/
+skills/cs-fundamentals-professor/evals/description-optimization/
 *.swp
 .idea/
 .vscode/

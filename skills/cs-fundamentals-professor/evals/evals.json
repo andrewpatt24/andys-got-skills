@@ -1,0 +1,23 @@
+{
+  "skill_name": "cs-fundamentals-professor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Cursor added Redis for rate limiting in my API—why? I don't get it.",
+      "expected_output": "Five-section response: distributed counting first principles, ASCII flow diagram, Redis vs DB trade-offs, 2–3 lines from actual middleware/redis usage if present, pop quiz without answer",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Activate CS fundamentals: explain how JWT auth works in this project",
+      "expected_output": "Trust-on-the-wire first principles, request/auth flow diagram, trade-offs (stateless vs revocation), cited lines from auth code, Socratic question on trade-off",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I'm a copy-paste dev—what is our vector store actually doing for RAG?",
+      "expected_output": "Similarity search / indexing fundamentals, data flow from query to chunks, scale and freshness trade-offs, code citations from RAG pipeline, quiz on recall vs latency",
+      "files": []
+    }
+  ]
+}

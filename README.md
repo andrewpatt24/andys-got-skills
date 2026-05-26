@@ -12,6 +12,8 @@ Each skill lives under `skills/<skill-name>/` with a `SKILL.md` entry point and 
 git clone https://github.com/andrewpatt24/andys-got-skills.git
 ln -sf "$(pwd)/andys-got-skills/skills/write-technical-blog-post" \
   ~/.cursor/skills/write-technical-blog-post
+ln -sf "$(pwd)/andys-got-skills/skills/cs-fundamentals-professor" \
+  ~/.cursor/skills/cs-fundamentals-professor
 ```
 
 **Option B — copy**
@@ -37,6 +39,7 @@ Restart Cursor or start a new agent chat after installing.
 | Skill | Description |
 |-------|-------------|
 | [write-technical-blog-post](skills/write-technical-blog-post/) | Voice interview + ~10 min blog interview → full technical post (Rizèl Scarlett structure, anti-AI-slop rules, your `config-tone.txt` samples) |
+| [cs-fundamentals-professor](skills/cs-fundamentals-professor/) | First-principles CS explanations of your AI-generated code—mental models, trade-offs, code citations, and a pop quiz |
 
 ## Adding a new skill
 
@@ -53,13 +56,16 @@ Cursor discovers skills from `~/.cursor/skills/` (not `~/.cursor/skills-cursor/`
 andys-got-skills/
 ├── README.md
 └── skills/
-    └── write-technical-blog-post/
+    ├── write-technical-blog-post/
+    │   ├── SKILL.md
+    │   ├── best-practices.md
+    │   ├── human-style.md
+    │   ├── voice-interview.md
+    │   ├── reference.md
+    │   └── config-tone.txt
+    └── cs-fundamentals-professor/
         ├── SKILL.md
-        ├── best-practices.md
-        ├── human-style.md
-        ├── voice-interview.md
-        ├── reference.md
-        └── config-tone.txt
+        └── example-response.md
 ```
 
 ## License
